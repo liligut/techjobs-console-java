@@ -33,8 +33,7 @@ public class TechJobs {
             // getUserSelection Print the menu and returns the key of the selected item from the choices Dictionary
             String actionChoice = getUserSelection("View jobs by:", actionChoices);
 
-            if (actionChoice.equals("list")) {
-
+            if (actionChoice.equals("list")){
                 String columnChoice = getUserSelection("List", columnChoices);
 
                 if (columnChoice.equals("all")) {
